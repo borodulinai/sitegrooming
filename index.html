@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru" theme="light">
+<head>
+	<title>Стрижка собак и кошек Вологда</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="/staticfiles/css/style.min.css">
+
+	<link rel="icon" type="image/png" sizes="192x192" href="/staticfiles/img/icon.png">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="header__bg _header__bg active" style="background-image: url(/mediafiles/banners/1_dog.jpg);"></div>
+
+		<nav class="navbar__nav">
+			<div class="container navbar__nav-wrapper">
+				<a href="" class="navbar__logo">
+					<img src="/staticfiles/img/logo.png" alt="logo">
+				</a>
+				<ul class="navbar__links">
+					<li>
+						<a href="#about" onclick="grummer.navbar.goToBlock(this, event, false)">
+							О салоне
+						</a>
+					</li>
+					<li>
+						<a href="#services" onclick="grummer.navbar.goToBlock(this, event, false)">
+							Услуги
+						</a>
+					</li>
+					<li>
+						<a href="#ourworks" onclick="grummer.navbar.goToBlock(this, event, false)">
+							Наши работы
+						</a>
+					</li>
+					<li>
+						<a href="#feedbacks" onclick="grummer.navbar.goToBlock(this, event, false)">
+							Отзывы
+						</a>
+					</li>
+					<li>
+						<a href="#footer" onclick="grummer.navbar.goToBlock(this, event, false)">
+							Контакты
+						</a>
+					</li>
+				</ul>
+				<div class="nav-btn navbar__burger-btn" onclick="grummer.navbar.toggleMenu()">
+					<div class="navbar__burger"></div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="header__content container">
+			<h1>Стрижка<br>домашних<br>животных</h1>
+			<p>Ваша благодарность питомцу<br>за его любовь без остатка</p>
+			<a class="btn header__call-btn yellow" href="#callback" onclick="grummer.goToBlock(this, event)">
+				Заказать звонок
+			</a>
+		</div>
+	</header>
+
+	<section class="about container" id="about">
+		<div class="about__wrapper">
+			<h1 class="text-center">О салоне</h1>
+			<p class="text-center">Мы молодой груминг салон, но даём гарантию на качественное обслуживание у профессионалов своего дела, предоставляем полный спектр услуг, дорожим нашими клиентами и любим ваших четвероногих друзей</p>
+			<p class="text-center">Воспользовавшись услугами нашего салона – ваши питомцы покидают его в неотразимой визуальной красоте, а вы в прекрасном расположении духа</p>
+		</div>
+	</section>
+
+	<section class="oursalon g-photo-slider" id="oursalon">
+
+			<div class="slick-track" style="opacity: 1;  ">
+				<div data-slick-index="1" aria-hidden="true" role="tabpanel" id="slick-slide21" aria-describedby="slick-slide-control21" tabindex="-1">
+						<div class="g-photo-slider__slider-item" style="width: 100%; display: inline-block;">
+							<img src="/mediafiles/outworks/6pbOy2EZ4sw.jpg">
+						</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="services" id="services">
+		<h1 class="text-center">Услуги</h1>
+		<div class="multiple-items2">
+			<div>
+				<img src="/mediafiles/services/1.png">
+			</div>
+			<div>
+				<img src="/mediafiles/services/2.png">
+			</div>
+			<div>
+				<img src="/mediafiles/services/3.png">
+			</div>
+			<div>
+				<img src="/mediafiles/services/4.png">
+			</div>
+			<div>
+				<img src="/mediafiles/services/5.png">
+			</div>
+			<div>
+				<img src="/mediafiles/services/6.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="ourworks" id="ourworks">
+		<h1 class="text-center" style="padding-bottom: 60px";>Наши работы</h1>
+		<div class="multiple-items">
+			<div>
+				<img src="/mediafiles/outworks/1.jpeg">
+			</div>
+			<div>
+				<img src="/mediafiles/outworks/2.jpeg">
+			</div>
+			<div>
+				<img src="/mediafiles/outworks/3.jpeg">
+			</div>
+			<div>
+				<img src="/mediafiles/outworks/4.jpeg">
+			</div>
+		</div>
+	</section>
+
+	<section class="feedbacks" id="feedbacks">
+		<h1 class="text-center">Отзывы</h1>
+		<div class="multiple-items">
+			<div>
+				<img src="/mediafiles/feedback/feedback1.png">
+			</div>
+			<div>
+				<img src="/mediafiles/feedback/feedback2.png">
+			</div>
+			<div>
+				<img src="/mediafiles/feedback/feedback3.png">
+			</div>
+			<div>
+				<img src="/mediafiles/feedback/feedback4.png">
+			</div>
+		</div>
+	</section>
+
+	<div class="callback" id="callback">
+		<div class="callback__wrapper">
+			<h1>Получить консультацию</h1>
+			<div class="callback__text">Оставьте свой номер телефона и мы вам перезвоним</div>
+			<form class="callback__form" onsubmit="grummer.callback.submit(this, event)">
+				<input type="hidden" name="csrfmiddlewaretoken" value="qPndcVgc2orcPuaX23wLU85UP8maiLQeqMEP3zF0j8M0gpMbsS92dS3FvvmXXxvy">
+				<div class="callback__form-inputs">
+					<div class="callback__form-field">
+						<label class="field _field" data-call="empty" data-msg="Введите имя">
+							<h4>Имя</h4>
+							<input name="name" type="text" placeholder="Введите имя">
+							<div class="error-msg _error-msg"></div>
+						</label>
+					</div>
+					<div class="callback__form-field">
+						<label class="field _field" data-call="empty phone" data-msg="Введите телефон">
+							<h4>Телефон</h4>
+							<input name="tel" class="_input-phone" type="text" placeholder="+7">
+							<div class="error-msg _error-msg"></div>
+						</label>
+					</div>
+				</div>
+				<button class="btn yellow" type="submit">Перезвоните мне</button>
+			</form>
+		</div>
+		<img src="/staticfiles/img/callback-bg.jpg" class="callback__img">
+	</div>
+
+	<footer class="footer" id="footer">
+		<div class="container footer__wrapper">
+			<div class="footer__logo">
+				<a href="/#header" onclick="grummer.goToBlock(this, event)">
+					<img src="/staticfiles/img/logo.png">
+				</a>
+			</div>
+			<div class="footer__links">
+				<ul class="footer__links-on-bloks">
+					<li><a href="#about" onclick="grummer.navbar.goToBlock(this, event, false)">О нас</a></li>
+					<li><a href="#services" onclick="grummer.navbar.goToBlock(this, event, false)">Услуги</a></li>
+					<li><a href="#feedbacks" onclick="grummer.navbar.goToBlock(this, event, false)">Отзывы</a></li>
+				</ul>
+				<ul class="footer__links-on-social">
+					<li>
+						<a href="https://vk.com" target="_blank">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.38652 7.23869C6.94487 8.6788 7.65249 10.0366 8.58449 11.2555C8.7081 11.4177 8.86392 11.5619 9.02807 11.6793C9.26783 11.8513 9.49404 11.7908 9.59153 11.5044C9.69464 11.2038 9.78927 10.5946 9.79489 10.2789C9.81028 9.45411 9.79259 8.91357 9.75016 8.08977C9.72265 7.56214 9.54307 7.09886 8.79996 6.95902C8.57048 6.91566 8.54916 6.71838 8.6966 6.52157C9.00353 6.11184 9.43111 6.04654 9.89478 6.0207C10.6463 5.9783 11.4005 6.0129 12.1529 6.0207C12.4594 6.02363 12.7677 6.04942 13.0695 6.11814C13.4632 6.20778 13.674 6.49621 13.7389 6.89762C13.7725 7.10468 13.7898 7.31755 13.7851 7.52706C13.7655 8.42737 13.724 9.3272 13.7142 10.227C13.71 10.5802 13.7347 10.9422 13.807 11.2862C13.9082 11.7655 14.2207 11.8859 14.5403 11.5395C14.9461 11.0996 15.3039 10.6046 15.6397 10.1019C16.2498 9.18742 16.7055 8.18385 17.0978 7.1491C17.3007 6.61517 17.4561 6.4992 18.006 6.49776C19.0397 6.4953 20.0734 6.49434 21.107 6.49776C21.2904 6.49872 21.4821 6.51677 21.6551 6.57427C21.9359 6.66782 22.0474 6.90702 21.9816 7.21055C21.8282 7.92185 21.4601 8.52642 21.066 9.10765C20.4335 10.0401 19.7706 10.9502 19.1232 11.8719C19.0407 11.9893 18.9679 12.1145 18.9002 12.2416C18.6581 12.6986 18.6749 12.9549 19.028 13.3353C19.5901 13.9409 20.1919 14.5075 20.7362 15.1296C21.1318 15.5822 21.4979 16.0733 21.8114 16.5902C22.2079 17.2439 21.963 17.8597 21.2223 17.9693C20.7563 18.0381 18.4801 17.9699 18.3624 17.9693C17.7505 17.9665 17.214 17.7448 16.7821 17.3107C16.3016 16.8274 15.865 16.2973 15.4037 15.7931C15.2647 15.6411 15.1163 15.4954 14.9564 15.3683C14.579 15.0677 14.2086 15.1344 14.0323 15.5973C13.8816 15.9948 13.7515 17.0388 13.7454 17.128C13.7137 17.5942 13.4296 17.8914 12.9296 17.9201C11.4859 18.002 10.0869 17.8339 8.78371 17.1046C7.67912 16.4868 6.79708 15.6133 6.03301 14.5947C4.81929 12.9766 3.86061 11.1981 2.98536 9.3673C2.94062 9.2737 2.05413 7.30351 2.0303 7.21045C1.95112 6.89885 2.02499 6.60118 2.27707 6.49872C2.43422 6.43486 5.35703 6.49851 5.40565 6.50123C5.87203 6.52761 6.19006 6.73312 6.38652 7.23869Z" stroke="#243138" stroke-width="2"></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://t.me" target="_blank">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20.82 3.0014C20.5985 3.01155 20.3828 3.07596 20.1884 3.1573C19.9959 3.2381 18.8877 3.73217 17.2513 4.46301C15.6149 5.19385 13.4877 6.14555 11.3791 7.08926C7.16177 8.97668 3.01753 10.8338 3.01753 10.8338C3.01753 10.8338 2.79761 10.909 2.54402 11.0936C2.41723 11.1859 2.28081 11.305 2.16912 11.4787C2.05743 11.6524 1.97577 11.8986 2.00655 12.159C2.11463 13.0735 3.02198 13.3329 3.02198 13.3329L3.02553 13.3347L7.07482 14.7824C7.17806 15.1422 8.30298 19.0642 8.55044 19.8948C8.6871 20.354 8.81501 20.6189 8.94844 20.7996C9.0152 20.8901 9.08517 20.96 9.16254 21.0112C9.19328 21.0315 9.22561 21.0468 9.2576 21.0604H9.25937C9.2633 21.0622 9.267 21.0624 9.27092 21.0641L9.26026 21.0613C9.26769 21.0645 9.27503 21.0697 9.28247 21.0725C9.29691 21.0777 9.30575 21.0776 9.32423 21.0817C9.78797 21.2509 10.1718 20.937 10.1718 20.937L10.1877 20.924L12.6752 18.5139L16.7121 21.8019L16.7627 21.826C17.4693 22.1537 18.1083 21.9709 18.4622 21.6701C18.8161 21.3693 18.9553 20.9815 18.9553 20.9815L18.9704 20.9407L21.9367 4.79059C22.0126 4.42928 22.0234 4.11696 21.9518 3.83475C21.8802 3.55253 21.7063 3.3072 21.4881 3.17122C21.2698 3.03524 21.0415 2.99125 20.82 3.0014ZM20.844 3.96745C20.934 3.9631 21.0007 3.97384 21.0217 3.98694C21.0427 4.00004 21.0521 3.99831 21.0723 4.07788C21.0925 4.15746 21.1034 4.32506 21.0483 4.58736L21.0465 4.59293L18.0971 20.6493C18.0901 20.6655 18.0286 20.814 17.8883 20.9333C17.7452 21.0549 17.5859 21.1499 17.1634 20.9648L12.749 17.3688L12.6246 17.2667L12.6219 17.2695L11.3018 16.2348L18.7207 7.11711C18.7777 7.04723 18.8142 6.96159 18.8256 6.87056C18.837 6.77953 18.8229 6.68699 18.785 6.60414C18.7471 6.52129 18.6871 6.45168 18.6122 6.40371C18.5372 6.35575 18.4506 6.33149 18.3627 6.33387C18.2769 6.3362 18.1934 6.36387 18.122 6.41368L7.38664 13.8897L3.33114 12.4392C3.33114 12.4392 2.92843 12.2051 2.90915 12.042C2.90808 12.033 2.90333 12.0412 2.92425 12.0086C2.94518 11.9761 2.99778 11.9211 3.06373 11.8731C3.19563 11.7771 3.34624 11.7191 3.34624 11.7191L3.36134 11.7135L3.37645 11.707C3.37645 11.707 7.52089 9.84984 11.738 7.96252C13.8465 7.01886 15.9734 6.06785 17.6094 5.33719C19.2449 4.60672 20.4268 4.08093 20.5268 4.03891C20.6408 3.99125 20.754 3.9718 20.844 3.96745ZM15.9241 9.08633L10.2979 16.0009L10.2952 16.0037C10.2865 16.0147 10.2782 16.0262 10.2704 16.038C10.2614 16.0509 10.2531 16.0642 10.2455 16.0779C10.2139 16.134 10.1936 16.1962 10.186 16.2607V16.2645L9.45304 19.7074C9.44086 19.6702 9.43233 19.6566 9.41928 19.6127C9.18649 18.8314 8.12515 15.1316 7.97831 14.62L15.9241 9.08633ZM10.9331 17.134L11.9441 17.9265L10.4587 19.3649L10.9331 17.134Z" fill="#243138" stroke="#243138"></path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+				<a href=" ">Публичный договор-оферта</a>
+			</div>
+			<div class="footer__contacts">
+				<h5>Контакты</h5>
+				<ul>
+					<li class="footer__contacts-map">
+						<a href="https://yandex.ru/maps/?um=constructor%3A29d93ca9f58fd9c5d985069ff2524d37bf16ff039dc09f59dea9bcfe9d303a9e&source=constructorLink" target="_blank">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.5939 21.5014L13.2531 22.2534L12.5939 21.5014ZM11.4064 21.5014L12.0656 20.7494L11.4064 21.5014ZM18.0001 10.2915C18.0001 12.5626 16.9498 14.791 15.613 16.6905C14.2857 18.5765 12.748 20.0364 11.9347 20.7494L13.2531 22.2534C14.1299 21.4847 15.7953 19.9066 17.2486 17.8415C18.6924 15.7899 20.0001 13.1542 20.0001 10.2915H18.0001ZM12.0656 20.7494C11.2522 20.0364 9.71451 18.5765 8.38721 16.6905C7.05044 14.791 6.00012 12.5626 6.00012 10.2915H4.00012C4.00012 13.1542 5.30783 15.7899 6.75164 17.8415C8.20493 19.9066 9.87033 21.4847 10.7472 22.2534L12.0656 20.7494ZM6.00012 10.2915C6.00012 6.77795 8.72447 4 12.0001 4V2C7.54378 2 4.00012 5.75107 4.00012 10.2915H6.00012ZM12.0001 4C15.2758 4 18.0001 6.77795 18.0001 10.2915H20.0001C20.0001 5.75107 16.4565 2 12.0001 2V4ZM11.9347 20.7494C11.9457 20.7398 11.9695 20.7279 12.0001 20.7279C12.0308 20.7279 12.0546 20.7398 12.0656 20.7494L10.7472 22.2534C11.4689 22.8861 12.5314 22.8861 13.2531 22.2534L11.9347 20.7494Z" fill="#243138"></path>
+								<path d="M12.0001 13C13.657 13 15.0001 11.6569 15.0001 10C15.0001 8.34315 13.657 7 12.0001 7C10.3433 7 9.00012 8.34315 9.00012 10C9.00012 11.6569 10.3433 13 12.0001 13Z" fill="white" stroke="#243138" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+							ул. Кривова 57
+						</a>
+					</li>
+					<li>
+						<a href="tel:+7 999 999 99 99">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.07529 4.92208L4.29421 4.29766L5.07529 4.92208ZM5.08323 11.1119L5.86155 10.4841L5.86155 10.4841L5.08323 11.1119ZM12.4233 18.452L11.7955 19.2304L12.4233 18.452ZM18.6132 18.46L17.9888 17.6789L18.6132 18.46ZM15.288 12.7479L14.7772 13.6076C15.16 13.835 15.6471 13.782 15.972 13.4774L15.288 12.7479ZM10.7874 8.24726L10.0579 7.56332C9.7533 7.88818 9.70024 8.37529 9.92772 8.7581L10.7874 8.24726ZM17.8621 11.8566L18.5897 11.1707L17.8621 11.8566ZM20.3184 17.182L19.6895 16.4045L20.3184 17.182ZM11.6828 5.67106L11.0013 6.40284L11.6828 5.67106ZM8.69745 3.01064L8.07807 3.79573L8.69745 3.01064ZM5.86155 10.4841C4.71293 9.06022 4.71128 6.97891 5.85638 5.54651L4.29421 4.29766C2.56606 6.45939 2.56442 9.58227 4.30492 11.7398L5.86155 10.4841ZM9.22474 14.3105C8.01331 13.0991 6.92189 11.7985 5.86155 10.4841L4.30492 11.7398C5.37737 13.0692 6.52216 14.4364 7.81053 15.7247L9.22474 14.3105ZM13.0512 17.6737C11.7368 16.6134 10.4362 15.522 9.22474 14.3105L7.81053 15.7247C9.0989 17.0131 10.466 18.1579 11.7955 19.2304L13.0512 17.6737ZM17.9888 17.6789C16.5564 18.824 14.4751 18.8223 13.0512 17.6737L11.7955 19.2304C13.953 20.9709 17.0759 20.9692 19.2376 19.2411L17.9888 17.6789ZM5.85638 5.54651C6.21676 5.09571 6.45295 4.77289 6.64295 4.50809C6.83614 4.23886 6.95678 4.06535 7.11373 3.86901L5.5515 2.62023C5.3529 2.86867 5.19134 3.10052 5.01798 3.34213C4.84144 3.58817 4.62674 3.88169 4.29421 4.29766L5.85638 5.54651ZM12.3644 4.93928C11.4186 4.05845 10.3973 3.07798 9.31684 2.22555L8.07807 3.79573C9.07679 4.58366 10.0208 5.48968 11.0013 6.40284L12.3644 4.93928ZM10.9829 6.48345C10.6964 6.8337 10.6863 6.89299 10.0579 7.56332L11.5169 8.93121C12.2069 8.19523 12.2929 8.04077 12.5311 7.74954L10.9829 6.48345ZM9.92772 8.7581C11.2113 10.9182 12.5764 12.2998 14.7772 13.6076L15.7989 11.8882C13.8884 10.753 12.7619 9.61252 11.6471 7.73643L9.92772 8.7581ZM15.972 13.4774C16.6385 12.8525 16.6992 12.8407 17.0446 12.5587L15.7797 11.0095C15.4909 11.2453 15.3369 11.3313 14.6041 12.0183L15.972 13.4774ZM21.3723 14.2867C20.5161 13.1637 19.4793 12.1142 18.5897 11.1707L17.1345 12.5426C18.0732 13.5383 19.0073 14.4834 19.7817 15.4993L21.3723 14.2867ZM19.6895 16.4045C19.4886 16.567 19.3154 16.6874 19.0453 16.8803C18.7784 17.0711 18.4518 17.3087 17.9888 17.6789L19.2376 19.2411C19.664 18.9002 19.96 18.6849 20.2082 18.5075C20.4534 18.3323 20.688 18.1692 20.9473 17.9594L19.6895 16.4045ZM17.0446 12.5587C17.0675 12.54 17.0924 12.5337 17.1116 12.5346C17.1206 12.535 17.126 12.5368 17.1282 12.5379C17.1298 12.5385 17.1315 12.5394 17.1345 12.5426L18.5897 11.1707C17.8209 10.3551 16.5887 10.3489 15.7797 11.0095L17.0446 12.5587ZM19.7817 15.4993C20.0073 15.7952 19.9502 16.1936 19.6895 16.4045L20.9473 17.9594C22.0778 17.0449 22.2316 15.4139 21.3723 14.2867L19.7817 15.4993ZM11.0013 6.40284C11.0037 6.4051 11.0038 6.40573 11.0039 6.40596C11.0044 6.40697 11.006 6.41118 11.0064 6.4192C11.0072 6.43654 11.0014 6.46074 10.9829 6.48345L12.5311 7.74954C13.1911 6.94242 13.1887 5.707 12.3644 4.93928L11.0013 6.40284ZM7.11373 3.86901C7.3239 3.60608 7.75007 3.53696 8.07807 3.79573L9.31684 2.22555C8.19 1.33655 6.49838 1.43568 5.5515 2.62023L7.11373 3.86901Z" fill="#243138"></path>
+							</svg>
+							+7 999 999 99 99
+						</a>
+					</li>
+					<li>
+						<a href="mailto:grooming@mail.ru">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.12713 17.7518C4.24584 18.7096 5.01639 19.4644 5.97649 19.5632C7.91206 19.7622 9.92843 19.9999 12.0001 19.9999C14.0717 19.9999 16.0881 19.7622 18.0236 19.5632C18.9837 19.4644 19.7543 18.7096 19.873 17.7518C20.0824 16.0617 20.3157 14.3041 20.3157 12.4999C20.3157 10.6957 20.0824 8.93816 19.873 7.24806C19.7543 6.29023 18.9837 5.53547 18.0236 5.43671C16.0881 5.23762 14.0717 5 12.0001 5C9.92843 5 7.91206 5.23762 5.97649 5.43671C5.01639 5.53547 4.24584 6.29023 4.12713 7.24806C3.91767 8.93816 3.68445 10.6957 3.68445 12.4999C3.68445 14.3041 3.91767 16.0617 4.12713 17.7518Z" stroke="#243138" stroke-width="2" stroke-linejoin="round"></path>
+								<path d="M10.7616 12.7054L10.1424 13.4907L10.7616 12.7054ZM3.47703 8.23522L10.1424 13.4907L11.3808 11.9201L4.71535 6.66468L3.47703 8.23522ZM19.2845 6.66468L12.6191 11.9201L13.8574 13.4907L20.5228 8.23522L19.2845 6.66468ZM10.1424 13.4907C11.2318 14.3496 12.768 14.3496 13.8574 13.4907L12.6191 11.9201C12.2559 12.2065 11.7439 12.2065 11.3808 11.9201L10.1424 13.4907Z" fill="#243138"></path>
+							</svg>
+							grooming@mail.ru
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="/staticfiles/js/myscripts.js"></script>
+
+</body>
+</html>
